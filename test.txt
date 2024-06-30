@@ -1,1 +1,90 @@
 To Debug:
+
+challenge 1:
+   
+   <!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 01</title>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <p>Content with <span style="color: red; font-weight: bold">style issues.</p>
+    <footer>Footer content</footer>
+</body>    
+</html>
+
+
+challenge 2:
+   
+   <!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 02</title>
+</head>
+<body>
+    <h1>Image Example</h1>
+    <figure>
+        <img src="wrongpath/image.jpg">
+        <figcaption>Image description</figcaption>
+    </figure>
+</body>
+</html>
+
+
+challenge 3:
+  
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 03</title>
+</head>
+<body>
+    <h1>Navigation</h1>
+    <nav>
+        <a>Link without href</a>
+        <ul>
+            <li><a href="page.html"></a>Page</li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
+challenge 4:
+  
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 04</title>
+</head>
+<body>
+    <h1>Deprecated Tags</h1>
+    <font color="blue">This text is blue.</font>
+    <form action="submit.html" method="get">
+        Name: <input type="text" name="name">
+        </form>
+        <button type="submit">Submit</button>
+</body>
+</html>
+
+challenge 5:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug 05</title>
+</head>
+<body>
+    <header>
+        <h1>Page Title</h1>
+    </header>
+    <div>
+        <h2>Content Heading</h2>
+        <p>Paragraph text.</p>
+    </div>
+</body>
+</html>
+
