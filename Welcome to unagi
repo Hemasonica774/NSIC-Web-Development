@@ -1,0 +1,82 @@
+ class.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Blinking Word</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <div class="animated-word">Welcome to unagi</div>
+    <button onclick="toggleDropdown()">Button</button>
+    <div class="box" id="dropdown-box">
+        <div class="blinking-word">click here to login</div>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            var box = document.getElementById("dropdown-box");
+            if (box.style.display === "none" || box.style.display === "") {
+                box.style.display = "block";
+            } else {
+                box.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+class.css
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9e3a9a;
+}
+
+.animated-word {
+    font-size: 3em;
+    font-weight: bold;
+    color: #3498db;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #3498db; }
+    50% { color: #e74c3c; }
+    100% { color: #3498db; }
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box {
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: #fff;
+    display: none;
+}
+
+.blinking-word {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3498db;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
