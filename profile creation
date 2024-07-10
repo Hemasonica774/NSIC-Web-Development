@@ -6,22 +6,22 @@ index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - S. Prema Latha</title>
+    <title>Resume - Hemasonica.P</title>
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
     <div class="profile-container">
         <div class="profile-header">
             <img src="prema.png" alt="Profile Picture" class="profile-picture">
-            <h1 class="profile-name">S. Prema Latha</h1>
+            <h1 class="profile-name">Hemasonica.P</h1>
             <p class="profile-title">Software Developer</p>
             <p class="profile-contact">
-                Email: s.premalatha260804@gmail.com | Phone: 8124694321 | LinkedIn: <a href="https://www.linkedin.com/in/prema-latha-sureshbabu/" target="_blank">linkedin.com/in/prema</a>
+                Email: s.premalatha260804@gmail.com | Phone: 8124694321 | LinkedIn: <a href="https://www.linkedin.com/in/Hemasonica/" target="_blank">linkedin.com/in/hema</a>
             </p>
         </div>
         <div class="profile-details">
             <h2>About Me</h2>
-            <p>Hello! I am S. Prema Latha, a passionate and dedicated software developer in web development. I specialize in front-end development, creating interactive and user-friendly web applications. I am committed to continuous learning and staying updated with the latest industry trends and technologies.</p>
+            <p>Hello! I am Hemasonica.P, a passionate and dedicated software developer in web development. I specialize in front-end development, creating interactive and user-friendly web applications. I am committed to continuous learning and staying updated with the latest industry trends and technologies.</p>
             
             <h2>Skills</h2>
             <ul class="skills-list">
