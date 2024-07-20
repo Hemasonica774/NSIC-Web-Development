@@ -12,11 +12,11 @@ index.html
 <body>
     <div class="profile-container">
         <div class="profile-header">
-            <img src="prema.png" alt="Profile Picture" class="profile-picture">
+            <img src="hema.png" alt="Profile Picture" class="profile-picture">
             <h1 class="profile-name">Hemasonica.P</h1>
             <p class="profile-title">Software Developer</p>
             <p class="profile-contact">
-                Email: s.premalatha260804@gmail.com | Phone: 8124694321 | LinkedIn: <a href="https://www.linkedin.com/in/Hemasonica/" target="_blank">linkedin.com/in/hema</a>
+                Email: hemasonica774@gmail.com | Phone: 7094135975 | LinkedIn: <a href="https://www.linkedin.com/in/Hemasonica/" target="_blank">linkedin.com/in/hema</a>
             </p>
         </div>
         <div class="profile-details">
